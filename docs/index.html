@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>San Diego Swell Report</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         background:#f7f6f2; color:#2a2a28; margin:0; padding:24px 16px 60px; }
+  .wrap { max-width:560px; margin:0 auto; }
+  h1 { font-size:20px; margin:0 0 2px; }
+  .updated { font-size:12px; color:#8a8880; margin:0 0 20px; }
+  .stat-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:24px; }
+  .stat-card { background:#fff; border-radius:14px; padding:16px; border:1px solid #e7e5df; }
+  .stat-label { font-size:12px; color:#8a8880; margin:0 0 4px; }
+  .stat-val { font-size:22px; font-weight:600; margin:0; }
+  .stat-sub { font-size:13px; color:#8a8880; font-weight:400; margin:4px 0 0; }
+  h2 { font-size:14px; color:#6b6a63; text-transform:uppercase; letter-spacing:.04em; margin:28px 0 10px; }
+  .row { display:flex; align-items:center; gap:12px; background:#fff; border:1px solid #e7e5df;
+          border-radius:12px; padding:12px 14px; margin-bottom:8px; }
+  .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+  .row-text { flex:1; }
+  .row-title { font-size:14px; font-weight:500; margin:0; }
+  .row-sub { font-size:12px; color:#8a8880; margin:0; }
+  .row-val { font-size:13px; font-weight:500; }
+  .spot-card { background:#fff; border:1px solid #e7e5df; border-radius:12px; padding:12px 14px; margin-bottom:8px; }
+  .spot-row { display:flex; align-items:center; justify-content:space-between; }
+  .spot-name { font-size:14px; font-weight:500; margin:0; }
+  .spot-note { font-size:12px; color:#8a8880; margin:4px 0 0; }
+  .spot-height { font-size:13px; margin:6px 0 0; }
+  .badge { font-size:11px; font-weight:600; padding:3px 9px; border-radius:20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>San Diego Swell Report</h1>
+  <p class="updated">Updated Sep 09, 2026 01:42 PM PDT</p>
 
+  
+        <div class="stat-grid">
+          <div class="stat-card"><p class="stat-label">Wave height</p><p class="stat-val">3.9 ft</p></div>
+          <div class="stat-card"><p class="stat-label">Period</p><p class="stat-val">12.5 s</p></div>
+          <div class="stat-card"><p class="stat-label">Direction</p><p class="stat-val">SW <span class="stat-sub">214&deg;</span></p></div>
+          
+        <div class="stat-card">
+          <p class="stat-label">Wind &middot; La Jolla (Scripps Pier)</p>
+          <p class="stat-val" style="color:#d99a1b;">
+            Cross-shore
+          </p>
+          <p class="stat-sub">N (10&deg;) at 2.2 mph</p>
+        </div>
+        </div>
+
+  <h2>Spot ratings today</h2>
+  
+        <div class="spot-card" style="border-left:4px solid #2e9e4f;">
+          <div class="spot-row">
+            <p class="spot-name">Swami's / Cardiff Reef</p>
+            <span class="badge" style="background:#eaf6ee; color:#2e9e4f;">Good</span>
+          </div>
+          <p class="spot-note">Reef amplifies mid-period south swells nicely</p>
+          <p class="spot-height">Est. face height: <strong>4.4 ft</strong></p>
+        </div>
+
+        <div class="spot-card" style="border-left:4px solid #2e9e4f;">
+          <div class="spot-row">
+            <p class="spot-name">Sunset Cliffs / OB Jetty</p>
+            <span class="badge" style="background:#eaf6ee; color:#2e9e4f;">Good</span>
+          </div>
+          <p class="spot-note">Widest open exposure to south swells</p>
+          <p class="spot-height">Est. face height: <strong>3.8 ft</strong></p>
+        </div>
+
+        <div class="spot-card" style="border-left:4px solid #2e9e4f;">
+          <div class="spot-row">
+            <p class="spot-name">Del Mar / Torrey Pines</p>
+            <span class="badge" style="background:#eaf6ee; color:#2e9e4f;">Good</span>
+          </div>
+          <p class="spot-note">Picks up SW well, less crowded</p>
+          <p class="spot-height">Est. face height: <strong>3.2 ft</strong></p>
+        </div>
+
+        <div class="spot-card" style="border-left:4px solid #2e9e4f;">
+          <div class="spot-row">
+            <p class="spot-name">La Jolla Shores</p>
+            <span class="badge" style="background:#eaf6ee; color:#2e9e4f;">Good</span>
+          </div>
+          <p class="spot-note">Soft and forgiving, good for smaller days</p>
+          <p class="spot-height">Est. face height: <strong>3.0 ft</strong></p>
+        </div>
+
+        <div class="spot-card" style="border-left:4px solid #d99a1b;">
+          <div class="spot-row">
+            <p class="spot-name">Blacks Beach</p>
+            <span class="badge" style="background:#fdf3df; color:#d99a1b;">Fair</span>
+          </div>
+          <p class="spot-note">Best overall shape when south/southwest is running</p>
+          <p class="spot-height">Est. face height: <strong>3.6 ft</strong></p>
+        </div>
+
+        <div class="spot-card" style="border-left:4px solid #d99a1b;">
+          <div class="spot-row">
+            <p class="spot-name">Imperial Beach</p>
+            <span class="badge" style="background:#fdf3df; color:#d99a1b;">Fair</span>
+          </div>
+          <p class="spot-note">Wide open south exposure, can get windy</p>
+          <p class="spot-height">Est. face height: <strong>3.0 ft</strong></p>
+        </div>
+
+        <div class="spot-card" style="border-left:4px solid #c94b4b;">
+          <div class="spot-row">
+            <p class="spot-name">Oceanside / North County</p>
+            <span class="badge" style="background:#fbeaea; color:#c94b4b;">Poor</span>
+          </div>
+          <p class="spot-note">Needs W/NW swell, sits in the shadow of S/SW</p>
+          <p class="spot-height">Est. face height: <strong>0.5 ft</strong></p>
+        </div>
+
+  <h2>Buoy network status</h2>
+  
+        <div class="row">
+          <span class="dot" style="background:#3a9a5c"></span>
+          <div class="row-text">
+            <p class="row-title">46225 &middot; Torrey Pines Outer</p>
+            <p class="row-sub">Live · 0.3h ago &middot; Primary offshore reference buoy</p>
+          </div>
+          <span class="row-val">3.9 ft</span>
+        </div>
+
+        <div class="row">
+          <span class="dot" style="background:#d64545"></span>
+          <div class="row-text">
+            <p class="row-title">46232 &middot; Point Loma South</p>
+            <p class="row-sub">Stale · 199.3h old &middot; South county / Sunset Cliffs, OB, Coronado</p>
+          </div>
+          <span class="row-val">4.6 ft</span>
+        </div>
+
+        <div class="row">
+          <span class="dot" style="background:#3a9a5c"></span>
+          <div class="row-text">
+            <p class="row-title">46254 &middot; Scripps Nearshore</p>
+            <p class="row-sub">Live · 0.8h ago &middot; La Jolla, Blacks Beach</p>
+          </div>
+          <span class="row-val">2.0 ft</span>
+        </div>
+
+        <div class="row">
+          <span class="dot" style="background:#3a9a5c"></span>
+          <div class="row-text">
+            <p class="row-title">46266 &middot; Del Mar Nearshore</p>
+            <p class="row-sub">Live · 0.8h ago &middot; Del Mar, Torrey Pines State Beach</p>
+          </div>
+          <span class="row-val">3.3 ft</span>
+        </div>
+
+        <div class="row">
+          <span class="dot" style="background:#3a9a5c"></span>
+          <div class="row-text">
+            <p class="row-title">46274 &middot; Leucadia Nearshore</p>
+            <p class="row-sub">Live · 0.3h ago &middot; Encinitas, Swami's, Cardiff</p>
+          </div>
+          <span class="row-val">3.0 ft</span>
+        </div>
+
+        <div class="row">
+          <span class="dot" style="background:#3a9a5c"></span>
+          <div class="row-text">
+            <p class="row-title">46258 &middot; Mission Bay West</p>
+            <p class="row-sub">Live · 0.3h ago &middot; Mission Beach, Pacific Beach</p>
+          </div>
+          <span class="row-val">4.6 ft</span>
+        </div>
+
+        <div class="row">
+          <span class="dot" style="background:#9a9890"></span>
+          <div class="row-text">
+            <p class="row-title">46235 &middot; Imperial Beach Nearshore</p>
+            <p class="row-sub">Unavailable &middot; Imperial Beach, south county</p>
+          </div>
+          <span class="row-val">no data</span>
+        </div>
+</div>
+</body>
+</html>
